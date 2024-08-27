@@ -1,6 +1,6 @@
-const findSum = function(array) {
-  // your code here - don't forget to return a number!
-};
+const findSum = numbers.reduce(function (sum, number) {
+    return sum + number;
+}, 0);
 
 const findFrequency = function(array) {
   // your code here - don't forget to return an object!
