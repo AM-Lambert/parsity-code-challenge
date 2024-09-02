@@ -1,4 +1,4 @@
-const findSum = numbers.reduce(function (sum, number) {
+const findSum = array.reduce(function (sum, number) {
     return sum + number;
 }, 0);
 
