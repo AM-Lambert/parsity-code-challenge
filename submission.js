@@ -1,3 +1,5 @@
+// https://github.com/projectshft/code-challenge/tree/main
+
 const findSum = function(array) {
     array.reduce(function (sum, number) {
     return sum + number;
